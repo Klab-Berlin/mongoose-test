@@ -1,0 +1,23 @@
+{
+  "name": "mongoose-test",
+  "version": "0.0.1",
+  "description": "mU API",
+  "main": "index.js",
+  "scripts": {
+    "test": "bnr test"
+  },
+  "betterScripts": {
+    "test": {
+      "command": "tsc"
+    }
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "better-npm-run": "~0.1.0",
+    "mongoose": "~6.9.0"
+  },
+  "devDependencies": {
+    "typescript": "~4.6.4"
+  }
+}
